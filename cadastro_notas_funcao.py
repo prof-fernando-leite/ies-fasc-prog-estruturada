@@ -29,9 +29,9 @@ def calcula_media():
     numero_de_notas = 0
 
 def seleciona_funcao(seletor):
-    if(seletor == 1):
+    if seletor == 1:
         adiciona_nota() 
-    elif(seletor == 2):
+    elif seletor == 2:
         calcula_media()
     else:
         print("opção inválida!")
@@ -39,7 +39,7 @@ def seleciona_funcao(seletor):
 def controla_menu():
     boas_vindas()
     opcao = menu()
-    while(opcao !=3):
+    while opcao !=3:
         seleciona_funcao(opcao)
         opcao = menu()
 
