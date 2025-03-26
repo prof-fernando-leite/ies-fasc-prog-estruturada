@@ -38,7 +38,8 @@ def main():
         if opcao > 3:
             print("Opção inválida!")
         opcao = menu()
-    print("Obrigado por utilizar o sistema de notas!")
+    print("Obrigado por utilizar o nosso sistema de notas!")
+    print("------------------------------------------------")
 
 if __name__ == "__main__":
     main()
