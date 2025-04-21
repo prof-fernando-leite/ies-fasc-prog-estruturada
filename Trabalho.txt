@@ -1,0 +1,15 @@
+Trabalho final:
+- pode ser feito em duplas e 1 trio;
+
+sistema de controle de estoque:
+Requisitos:
+cadastrar: nome do produto, descrição, preço, quantidade.
+funcionalidades: inserir produto, deletar produto, comprar e dar desconto.
+na funcionalidade comprar a quantidade de itens em estoque será igual a
+quantidade em estoque menos a quantidade comprada.
+na funcionalidade dar desconto, o preço será o valor anterior do preço menos o desconto aplicado.
+
+- Deve ter persistência de dados (em arquivo txt ou banco de dados).
+- Aplicação por linha de comando (criar um menu)
+- Aplicação deve ser modularizada
+- O trabalho valerá ATÉ 3 pontos a serem acrescentados na P1 OU P2
