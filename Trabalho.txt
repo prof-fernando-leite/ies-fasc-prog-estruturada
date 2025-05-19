@@ -14,4 +14,4 @@ na funcionalidade dar desconto, o preço será o valor anterior do preço menos 
 - Aplicação deve ser modularizada
 - O trabalho valerá ATÉ 3 pontos a serem acrescentados na P1 OU P2
 
-PRAZO DE ENTREGA: 02/06/2005
+PRAZO DE ENTREGA: 02/06/2025
