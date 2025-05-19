@@ -1,0 +1,51 @@
+1 – Crie um programa em python que tenha dois arquivos:
+- arquivo 1: principal.py
+- arquivo 2: matematica/calculadora.py
+No arquivo 2 implemente os métodos:
+- soma(n1, n2): retorna a soma entre eles;
+- subtracao(n1, n2): retorna n1-n2;
+- multiplicacao(n1, n2): retorna n1 * n2;
+- divisao(n1, n2): retorna n1/n2. Obs: se n2 for 0 deve devolver a seguinte mensagem de erro: “Não é possível dividir por zero!”
+- soma_todos(*numeros): recebe um número variável de inteiros e devolve a soma de todos os números.
+Na função principal vc deve importar os métodos de calculadora.py e testar um-a-um
+
+2-  Crie um programa em python que tenha dois arquivos:
+- arquivo 1: principal.py
+- arquivo 2: matematica/operacoes_especiais.py
+No arquivo 2 implemente os métodos:
+- determinante(matriz): retorna o determinante de uma matriz 2 x 2. Deve validar se a matriz é 2 x 2 e, se nao for, imprimir a seguinte mensagem: “Matriz tem que ser quadrada e de ordem 2!”
+- potencia(n1, n2): devolve n1 elevado a n2. Detalhe: se n1 for 0, o resultado deve ser 1 e se n2 < 0 deve ser entendido como uma radiciação (não utilizar funções prontas do python!;
+- 
+Na função principal vc deve importar os métodos de operacoes_especiais.py e testar um-a-um
+
+3- Crie um programa que leia os produtos comprados de um arquivo csv com o seguinte header:
+codigo, descricao, valor unitario, quantidade (vc deve preencher o arquivo com vários produtos, alores e etc...)
+E devolva impresso na tela o seguinte texto:
+código ---- valor unitário ---- quantidade --- valor total
+
+
+Valor total da compra:
+
+4 - Escreva um programa que leia um arquivo texto.txt e conte quantas vezes cada palavra aparece no texto (ignore maiúsculas/minúsculas e pontuação). Salve o resultado em um dicionário e exiba as 3 palavras mais frequentes.
+
+5 - Crie uma tabela alunos para gerenciar estudantes.
+Criação da tabela:
+
+CREATE DATABASE escola;
+USE escola;
+
+CREATE TABLE alunos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    idade INT,
+    nota FLOAT
+);
+
+Comando para inserir registro:
+INSERT INTO funcionarios (nome, cargo, salario) VALUES 
+('João', 'Gerente', 5000.00);
+
+Comando para listar todos:
+SELECT * FROM funcionarios ORDER BY salario DESC;
+
+Crie um programa, dividido em módulos, que adicione e liste todos os funcionários
